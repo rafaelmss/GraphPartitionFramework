@@ -1,0 +1,193 @@
+Fri Dec 04 10:06:24 BRST 2015: Creating new db @ gerados/neo4j-grafo_v100/neostore
+Fri Dec 04 10:06:28 BRST 2015: Opened [gerados/neo4j-grafo_v100/nioneo_logical.log.1] clean empty log, version=0
+Fri Dec 04 10:06:28 BRST 2015: Opened [gerados/neo4j-grafo_v100/lucene/lucene.log.1] clean empty log, version=0
+Fri Dec 04 10:06:28 BRST 2015: Opened [gerados/neo4j-grafo_v100/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Fri Dec 04 10:06:28 BRST 2015: Opened [/home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphGenerator/gerados/neo4j-grafo_v100/index/lucene.log.1] clean empty log, version=0
+Fri Dec 04 10:06:28 BRST 2015: TM new log: tm_tx_log.1
+Fri Dec 04 10:06:28 BRST 2015: --- CONFIGURATION START ---
+Fri Dec 04 10:06:28 BRST 2015: Physical mem: 7867MB, Heap size: 1749MB
+Fri Dec 04 10:06:28 BRST 2015: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Fri Dec 04 10:06:28 BRST 2015: Neo4j - Graph Database Kernel 1.4.M06
+Fri Dec 04 10:06:28 BRST 2015: Operating System: Linux; version: 4.2.0-19-generic; arch: amd64; cpus: 4
+Fri Dec 04 10:06:28 BRST 2015: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Fri Dec 04 10:06:28 BRST 2015: VM Vendor: Oracle Corporation
+Fri Dec 04 10:06:28 BRST 2015: VM Version: 25.66-b17
+Fri Dec 04 10:06:28 BRST 2015: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Fri Dec 04 10:06:28 BRST 2015: Class Path: /usr/share/maven2/boot/classworlds.jar
+Fri Dec 04 10:06:28 BRST 2015: Library Path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Fri Dec 04 10:06:28 BRST 2015: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Fri Dec 04 10:06:28 BRST 2015: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Fri Dec 04 10:06:28 BRST 2015: VM Arguments: [-Dclassworlds.conf=/usr/share/maven2/bin/m2.conf, -Dmaven.home=/usr/share/maven2]
+Fri Dec 04 10:06:28 BRST 2015: 
+Fri Dec 04 10:06:28 BRST 2015: create=true
+Fri Dec 04 10:06:28 BRST 2015: dir=gerados/neo4j-grafo_v100/lucene-fulltext
+Fri Dec 04 10:06:28 BRST 2015: logical_log=gerados/neo4j-grafo_v100/nioneo_logical.log
+Fri Dec 04 10:06:28 BRST 2015: neo_store=gerados/neo4j-grafo_v100/neostore
+Fri Dec 04 10:06:28 BRST 2015: neostore.nodestore.db.mapped_memory=20M
+Fri Dec 04 10:06:28 BRST 2015: neostore.propertystore.db.arrays.mapped_memory=130M
+Fri Dec 04 10:06:28 BRST 2015: neostore.propertystore.db.index.keys.mapped_memory=1M
+Fri Dec 04 10:06:28 BRST 2015: neostore.propertystore.db.index.mapped_memory=1M
+Fri Dec 04 10:06:28 BRST 2015: neostore.propertystore.db.mapped_memory=90M
+Fri Dec 04 10:06:28 BRST 2015: neostore.propertystore.db.strings.mapped_memory=130M
+Fri Dec 04 10:06:28 BRST 2015: neostore.relationshipstore.db.mapped_memory=100M
+Fri Dec 04 10:06:28 BRST 2015: node_auto_indexing=false
+Fri Dec 04 10:06:28 BRST 2015: rebuild_idgenerators_fast=true
+Fri Dec 04 10:06:28 BRST 2015: relationship_auto_indexing=false
+Fri Dec 04 10:06:28 BRST 2015: store_dir=gerados/neo4j-grafo_v100
+Fri Dec 04 10:06:28 BRST 2015: use_memory_mapped_buffers=true
+Fri Dec 04 10:06:28 BRST 2015: --- CONFIGURATION END ---
+Fri Dec 04 10:06:28 BRST 2015: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Fri Dec 04 10:06:29 BRST 2015: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Fri Dec 04 10:06:29 BRST 2015: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Fri Dec 04 10:06:29 BRST 2015: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Fri Dec 04 10:06:45 BRST 2015: Closed log gerados/neo4j-grafo_v100/nioneo_logical.log
+Fri Dec 04 10:06:46 BRST 2015: NeoStore closed
+Fri Dec 04 10:06:46 BRST 2015: NeoStore closed
+Fri Dec 04 10:06:46 BRST 2015: Closed log gerados/neo4j-grafo_v100/lucene/lucene.log
+Fri Dec 04 10:06:46 BRST 2015: Closed log gerados/neo4j-grafo_v100/lucene-fulltext/lucene.log
+Fri Dec 04 10:06:46 BRST 2015: Closed log /home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphGenerator/gerados/neo4j-grafo_v100/index/lucene.log
+Fri Dec 04 10:06:46 BRST 2015: TM shutting down
+Thu Feb 25 14:31:51 BRT 2016: Opened [teste_100/nioneo_logical.log.1] clean empty log, version=0
+Thu Feb 25 14:31:51 BRT 2016: Opened [teste_100/lucene/lucene.log.1] clean empty log, version=0
+Thu Feb 25 14:31:51 BRT 2016: Opened [teste_100/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Thu Feb 25 14:31:51 BRT 2016: Opened [/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/teste_100/index/lucene.log.1] clean empty log, version=0
+Thu Feb 25 14:31:51 BRT 2016: TM opening log: teste_100/tm_tx_log.1
+Thu Feb 25 14:31:51 BRT 2016: --- CONFIGURATION START ---
+Thu Feb 25 14:31:51 BRT 2016: Physical mem: 7867MB, Heap size: 1749MB
+Thu Feb 25 14:31:51 BRT 2016: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Thu Feb 25 14:31:51 BRT 2016: Neo4j - Graph Database Kernel 1.4.M06
+Thu Feb 25 14:31:51 BRT 2016: Operating System: Linux; version: 4.2.0-27-generic; arch: amd64; cpus: 4
+Thu Feb 25 14:31:51 BRT 2016: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Thu Feb 25 14:31:51 BRT 2016: VM Vendor: Oracle Corporation
+Thu Feb 25 14:31:51 BRT 2016: VM Version: 25.72-b15
+Thu Feb 25 14:31:51 BRT 2016: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Thu Feb 25 14:31:51 BRT 2016: Class Path: /home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/target/classes:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/GraphCommons/target/classes:/home/rafael/.m2/repository/net/sf/jung/jung-graph-impl/2.0.1/jung-graph-impl-2.0.1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j/1.4.M06/neo4j-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-kernel/1.4.M06/neo4j-kernel-1.4.M06.jar:/home/rafael/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-lucene-index/1.4.M06/neo4j-lucene-index-1.4.M06.jar:/home/rafael/.m2/repository/org/apache/lucene/lucene-core/3.1.0/lucene-core-3.1.0.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-graph-algo/1.4.M06/neo4j-graph-algo-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-udc/1.4.M06/neo4j-udc-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-graph-matching/1.4.M06/neo4j-graph-matching-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-cypher/1.4.M06/neo4j-cypher-1.4.M06.jar:/home/rafael/.m2/repository/org/scala-lang/scala-library/2.9.0-1/scala-library-2.9.0-1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-jmx/1.4.M06/neo4j-jmx-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-kernel/1.4.M06/neo4j-kernel-1.4.M06-tests.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-utils/1.2-1.2/neo4j-utils-1.2-1.2.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-index/1.2-1.2/neo4j-index-1.2-1.2.jar:/home/rafael/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.lucene/3.0.1_2/org.apache.servicemix.bundles.lucene-3.0.1_2.jar:/home/rafael/.m2/repository/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar:/home/rafael/.m2/repository/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Base_KL/target/classes:/home/rafael/.m2/repository/net/sf/jung/jung-algorithms/2.0.1/jung-algorithms-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-api/2.0.1/jung-api-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-io/2.0.1/jung-io-2.0.1.jar:/home/rafael/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6.jar:/home/rafael/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-samples/2.0.1/jung-samples-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-visualization/2.0.1/jung-visualization-2.0.1.jar:/home/rafael/.m2/repository/net/sourceforge/collections/collections-generic/4.01/collections-generic-4.01.jar:/home/rafael/.m2/repository/colt/colt/1.2.0/colt-1.2.0.jar:/home/rafael/.m2/repository/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar:/home/rafael/.m2/repository/junit/junit/4.6/junit-4.6.jar:/home/rafael/.m2/repository/br/edu/unifei/mestrado/GraphView/1.0-SNAPSHOT/GraphView-1.0-SNAPSHOT.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Base_Louvian/target/classes
+Thu Feb 25 14:31:51 BRT 2016: Library Path: /usr/lib/jvm/java-8-oracle/bin/../jre/lib/amd64:/usr/lib/jvm/java-8-oracle/bin/../jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Thu Feb 25 14:31:51 BRT 2016: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Thu Feb 25 14:31:51 BRT 2016: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Thu Feb 25 14:31:51 BRT 2016: VM Arguments: []
+Thu Feb 25 14:31:51 BRT 2016: 
+Thu Feb 25 14:31:51 BRT 2016: create=true
+Thu Feb 25 14:31:51 BRT 2016: dir=teste_100/lucene-fulltext
+Thu Feb 25 14:31:51 BRT 2016: logical_log=teste_100/nioneo_logical.log
+Thu Feb 25 14:31:51 BRT 2016: neo_store=teste_100/neostore
+Thu Feb 25 14:31:51 BRT 2016: neostore.nodestore.db.mapped_memory=20M
+Thu Feb 25 14:31:51 BRT 2016: neostore.propertystore.db.arrays.mapped_memory=130M
+Thu Feb 25 14:31:51 BRT 2016: neostore.propertystore.db.index.keys.mapped_memory=1M
+Thu Feb 25 14:31:51 BRT 2016: neostore.propertystore.db.index.mapped_memory=1M
+Thu Feb 25 14:31:51 BRT 2016: neostore.propertystore.db.mapped_memory=90M
+Thu Feb 25 14:31:51 BRT 2016: neostore.propertystore.db.strings.mapped_memory=130M
+Thu Feb 25 14:31:51 BRT 2016: neostore.relationshipstore.db.mapped_memory=100M
+Thu Feb 25 14:31:51 BRT 2016: node_auto_indexing=false
+Thu Feb 25 14:31:51 BRT 2016: rebuild_idgenerators_fast=true
+Thu Feb 25 14:31:51 BRT 2016: relationship_auto_indexing=false
+Thu Feb 25 14:31:51 BRT 2016: store_dir=teste_100
+Thu Feb 25 14:31:51 BRT 2016: use_memory_mapped_buffers=true
+Thu Feb 25 14:31:51 BRT 2016: --- CONFIGURATION END ---
+Thu Feb 25 14:31:51 BRT 2016: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Thu Feb 25 14:31:51 BRT 2016: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Thu Feb 25 14:31:51 BRT 2016: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Thu Feb 25 14:31:51 BRT 2016: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Thu Feb 25 14:34:15 BRT 2016: Closed log teste_100/nioneo_logical.log
+Thu Feb 25 14:34:17 BRT 2016: NeoStore closed
+Thu Feb 25 14:34:17 BRT 2016: NeoStore closed
+Thu Feb 25 14:34:17 BRT 2016: Closed log teste_100/lucene/lucene.log
+Thu Feb 25 14:34:17 BRT 2016: Closed log teste_100/lucene-fulltext/lucene.log
+Thu Feb 25 14:34:17 BRT 2016: Closed log /home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/teste_100/index/lucene.log
+Thu Feb 25 14:34:17 BRT 2016: TM shutting down
+Thu Feb 25 14:39:00 BRT 2016: Opened [teste_100/nioneo_logical.log.1] clean empty log, version=0
+Thu Feb 25 14:39:00 BRT 2016: Opened [teste_100/lucene/lucene.log.1] clean empty log, version=0
+Thu Feb 25 14:39:00 BRT 2016: Opened [teste_100/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Thu Feb 25 14:39:00 BRT 2016: Opened [/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/teste_100/index/lucene.log.1] clean empty log, version=0
+Thu Feb 25 14:39:00 BRT 2016: TM opening log: teste_100/tm_tx_log.1
+Thu Feb 25 14:39:00 BRT 2016: --- CONFIGURATION START ---
+Thu Feb 25 14:39:00 BRT 2016: Physical mem: 7867MB, Heap size: 1749MB
+Thu Feb 25 14:39:00 BRT 2016: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Thu Feb 25 14:39:00 BRT 2016: Neo4j - Graph Database Kernel 1.4.M06
+Thu Feb 25 14:39:00 BRT 2016: Operating System: Linux; version: 4.2.0-27-generic; arch: amd64; cpus: 4
+Thu Feb 25 14:39:00 BRT 2016: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Thu Feb 25 14:39:00 BRT 2016: VM Vendor: Oracle Corporation
+Thu Feb 25 14:39:00 BRT 2016: VM Version: 25.72-b15
+Thu Feb 25 14:39:00 BRT 2016: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Thu Feb 25 14:39:00 BRT 2016: Class Path: /home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/target/classes:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/GraphCommons/target/classes:/home/rafael/.m2/repository/net/sf/jung/jung-graph-impl/2.0.1/jung-graph-impl-2.0.1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j/1.4.M06/neo4j-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-kernel/1.4.M06/neo4j-kernel-1.4.M06.jar:/home/rafael/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-lucene-index/1.4.M06/neo4j-lucene-index-1.4.M06.jar:/home/rafael/.m2/repository/org/apache/lucene/lucene-core/3.1.0/lucene-core-3.1.0.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-graph-algo/1.4.M06/neo4j-graph-algo-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-udc/1.4.M06/neo4j-udc-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-graph-matching/1.4.M06/neo4j-graph-matching-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-cypher/1.4.M06/neo4j-cypher-1.4.M06.jar:/home/rafael/.m2/repository/org/scala-lang/scala-library/2.9.0-1/scala-library-2.9.0-1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-jmx/1.4.M06/neo4j-jmx-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-kernel/1.4.M06/neo4j-kernel-1.4.M06-tests.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-utils/1.2-1.2/neo4j-utils-1.2-1.2.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-index/1.2-1.2/neo4j-index-1.2-1.2.jar:/home/rafael/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.lucene/3.0.1_2/org.apache.servicemix.bundles.lucene-3.0.1_2.jar:/home/rafael/.m2/repository/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar:/home/rafael/.m2/repository/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Base_KL/target/classes:/home/rafael/.m2/repository/net/sf/jung/jung-algorithms/2.0.1/jung-algorithms-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-api/2.0.1/jung-api-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-io/2.0.1/jung-io-2.0.1.jar:/home/rafael/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6.jar:/home/rafael/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-samples/2.0.1/jung-samples-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-visualization/2.0.1/jung-visualization-2.0.1.jar:/home/rafael/.m2/repository/net/sourceforge/collections/collections-generic/4.01/collections-generic-4.01.jar:/home/rafael/.m2/repository/colt/colt/1.2.0/colt-1.2.0.jar:/home/rafael/.m2/repository/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar:/home/rafael/.m2/repository/junit/junit/4.6/junit-4.6.jar:/home/rafael/.m2/repository/br/edu/unifei/mestrado/GraphView/1.0-SNAPSHOT/GraphView-1.0-SNAPSHOT.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Base_Louvian/target/classes
+Thu Feb 25 14:39:00 BRT 2016: Library Path: /usr/lib/jvm/java-8-oracle/bin/../jre/lib/amd64:/usr/lib/jvm/java-8-oracle/bin/../jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Thu Feb 25 14:39:00 BRT 2016: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Thu Feb 25 14:39:00 BRT 2016: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Thu Feb 25 14:39:00 BRT 2016: VM Arguments: []
+Thu Feb 25 14:39:00 BRT 2016: 
+Thu Feb 25 14:39:00 BRT 2016: create=true
+Thu Feb 25 14:39:00 BRT 2016: dir=teste_100/lucene-fulltext
+Thu Feb 25 14:39:00 BRT 2016: logical_log=teste_100/nioneo_logical.log
+Thu Feb 25 14:39:00 BRT 2016: neo_store=teste_100/neostore
+Thu Feb 25 14:39:00 BRT 2016: neostore.nodestore.db.mapped_memory=20M
+Thu Feb 25 14:39:00 BRT 2016: neostore.propertystore.db.arrays.mapped_memory=130M
+Thu Feb 25 14:39:00 BRT 2016: neostore.propertystore.db.index.keys.mapped_memory=1M
+Thu Feb 25 14:39:00 BRT 2016: neostore.propertystore.db.index.mapped_memory=1M
+Thu Feb 25 14:39:00 BRT 2016: neostore.propertystore.db.mapped_memory=90M
+Thu Feb 25 14:39:00 BRT 2016: neostore.propertystore.db.strings.mapped_memory=130M
+Thu Feb 25 14:39:00 BRT 2016: neostore.relationshipstore.db.mapped_memory=100M
+Thu Feb 25 14:39:00 BRT 2016: node_auto_indexing=false
+Thu Feb 25 14:39:00 BRT 2016: rebuild_idgenerators_fast=true
+Thu Feb 25 14:39:00 BRT 2016: relationship_auto_indexing=false
+Thu Feb 25 14:39:00 BRT 2016: store_dir=teste_100
+Thu Feb 25 14:39:00 BRT 2016: use_memory_mapped_buffers=true
+Thu Feb 25 14:39:00 BRT 2016: --- CONFIGURATION END ---
+Thu Feb 25 14:39:00 BRT 2016: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Thu Feb 25 14:39:00 BRT 2016: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Thu Feb 25 14:39:00 BRT 2016: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Thu Feb 25 14:39:00 BRT 2016: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Thu Feb 25 14:39:50 BRT 2016: Closed log teste_100/nioneo_logical.log
+Thu Feb 25 14:39:52 BRT 2016: NeoStore closed
+Thu Feb 25 14:39:52 BRT 2016: NeoStore closed
+Thu Feb 25 14:39:52 BRT 2016: Closed log teste_100/lucene/lucene.log
+Thu Feb 25 14:39:52 BRT 2016: Closed log teste_100/lucene-fulltext/lucene.log
+Thu Feb 25 14:39:52 BRT 2016: Closed log /home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/teste_100/index/lucene.log
+Thu Feb 25 14:39:52 BRT 2016: TM shutting down
+Mon Feb 29 16:25:57 BRT 2016: Opened [teste_100/nioneo_logical.log.1] clean empty log, version=0
+Mon Feb 29 16:25:57 BRT 2016: Opened [teste_100/lucene/lucene.log.1] clean empty log, version=0
+Mon Feb 29 16:25:57 BRT 2016: Opened [teste_100/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Mon Feb 29 16:25:57 BRT 2016: Opened [/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/teste_100/index/lucene.log.1] clean empty log, version=0
+Mon Feb 29 16:25:57 BRT 2016: TM opening log: teste_100/tm_tx_log.1
+Mon Feb 29 16:25:57 BRT 2016: --- CONFIGURATION START ---
+Mon Feb 29 16:25:57 BRT 2016: Physical mem: 7867MB, Heap size: 1749MB
+Mon Feb 29 16:25:57 BRT 2016: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Mon Feb 29 16:25:57 BRT 2016: Neo4j - Graph Database Kernel 1.4.M06
+Mon Feb 29 16:25:57 BRT 2016: Operating System: Linux; version: 4.2.0-27-generic; arch: amd64; cpus: 4
+Mon Feb 29 16:25:57 BRT 2016: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Mon Feb 29 16:25:57 BRT 2016: VM Vendor: Oracle Corporation
+Mon Feb 29 16:25:57 BRT 2016: VM Version: 25.72-b15
+Mon Feb 29 16:25:57 BRT 2016: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Mon Feb 29 16:25:57 BRT 2016: Class Path: /home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/target/classes:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/GraphCommons/target/classes:/home/rafael/.m2/repository/net/sf/jung/jung-graph-impl/2.0.1/jung-graph-impl-2.0.1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j/1.4.M06/neo4j-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-kernel/1.4.M06/neo4j-kernel-1.4.M06.jar:/home/rafael/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-lucene-index/1.4.M06/neo4j-lucene-index-1.4.M06.jar:/home/rafael/.m2/repository/org/apache/lucene/lucene-core/3.1.0/lucene-core-3.1.0.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-graph-algo/1.4.M06/neo4j-graph-algo-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-udc/1.4.M06/neo4j-udc-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-graph-matching/1.4.M06/neo4j-graph-matching-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-cypher/1.4.M06/neo4j-cypher-1.4.M06.jar:/home/rafael/.m2/repository/org/scala-lang/scala-library/2.9.0-1/scala-library-2.9.0-1.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-jmx/1.4.M06/neo4j-jmx-1.4.M06.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-kernel/1.4.M06/neo4j-kernel-1.4.M06-tests.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-utils/1.2-1.2/neo4j-utils-1.2-1.2.jar:/home/rafael/.m2/repository/org/neo4j/neo4j-index/1.2-1.2/neo4j-index-1.2-1.2.jar:/home/rafael/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.lucene/3.0.1_2/org.apache.servicemix.bundles.lucene-3.0.1_2.jar:/home/rafael/.m2/repository/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar:/home/rafael/.m2/repository/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar:/home/rafael/.m2/repository/br/edu/unifei/mestrado/Base_KL/1.0-SNAPSHOT/Base_KL-1.0-SNAPSHOT.jar:/home/rafael/.m2/repository/net/sf/jung/jung-algorithms/2.0.1/jung-algorithms-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-api/2.0.1/jung-api-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-io/2.0.1/jung-io-2.0.1.jar:/home/rafael/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6.jar:/home/rafael/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-samples/2.0.1/jung-samples-2.0.1.jar:/home/rafael/.m2/repository/net/sf/jung/jung-visualization/2.0.1/jung-visualization-2.0.1.jar:/home/rafael/.m2/repository/net/sourceforge/collections/collections-generic/4.01/collections-generic-4.01.jar:/home/rafael/.m2/repository/colt/colt/1.2.0/colt-1.2.0.jar:/home/rafael/.m2/repository/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar:/home/rafael/.m2/repository/junit/junit/4.6/junit-4.6.jar:/home/rafael/.m2/repository/br/edu/unifei/mestrado/GraphView/1.0-SNAPSHOT/GraphView-1.0-SNAPSHOT.jar:/home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Base_Louvian/target/classes
+Mon Feb 29 16:25:57 BRT 2016: Library Path: /usr/lib/jvm/java-8-oracle/bin/../jre/lib/amd64:/usr/lib/jvm/java-8-oracle/bin/../jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mon Feb 29 16:25:57 BRT 2016: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Mon Feb 29 16:25:57 BRT 2016: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Mon Feb 29 16:25:57 BRT 2016: VM Arguments: []
+Mon Feb 29 16:25:57 BRT 2016: 
+Mon Feb 29 16:25:57 BRT 2016: create=true
+Mon Feb 29 16:25:57 BRT 2016: dir=teste_100/lucene-fulltext
+Mon Feb 29 16:25:57 BRT 2016: logical_log=teste_100/nioneo_logical.log
+Mon Feb 29 16:25:57 BRT 2016: neo_store=teste_100/neostore
+Mon Feb 29 16:25:57 BRT 2016: neostore.nodestore.db.mapped_memory=20M
+Mon Feb 29 16:25:57 BRT 2016: neostore.propertystore.db.arrays.mapped_memory=130M
+Mon Feb 29 16:25:57 BRT 2016: neostore.propertystore.db.index.keys.mapped_memory=1M
+Mon Feb 29 16:25:57 BRT 2016: neostore.propertystore.db.index.mapped_memory=1M
+Mon Feb 29 16:25:57 BRT 2016: neostore.propertystore.db.mapped_memory=90M
+Mon Feb 29 16:25:57 BRT 2016: neostore.propertystore.db.strings.mapped_memory=130M
+Mon Feb 29 16:25:57 BRT 2016: neostore.relationshipstore.db.mapped_memory=100M
+Mon Feb 29 16:25:57 BRT 2016: node_auto_indexing=false
+Mon Feb 29 16:25:57 BRT 2016: rebuild_idgenerators_fast=true
+Mon Feb 29 16:25:57 BRT 2016: relationship_auto_indexing=false
+Mon Feb 29 16:25:57 BRT 2016: store_dir=teste_100
+Mon Feb 29 16:25:57 BRT 2016: use_memory_mapped_buffers=true
+Mon Feb 29 16:25:57 BRT 2016: --- CONFIGURATION END ---
+Mon Feb 29 16:25:57 BRT 2016: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Mon Feb 29 16:25:57 BRT 2016: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Mon Feb 29 16:25:57 BRT 2016: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Mon Feb 29 16:25:57 BRT 2016: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Mon Feb 29 16:26:48 BRT 2016: Closed log teste_100/nioneo_logical.log
+Mon Feb 29 16:26:51 BRT 2016: NeoStore closed
+Mon Feb 29 16:26:51 BRT 2016: NeoStore closed
+Mon Feb 29 16:26:51 BRT 2016: Closed log teste_100/lucene/lucene.log
+Mon Feb 29 16:26:51 BRT 2016: Closed log teste_100/lucene-fulltext/lucene.log
+Mon Feb 29 16:26:51 BRT 2016: Closed log /home/rafael/Área de Trabalho/teste/GraphPartitionFramework-master/Neo4j_Louvain/teste_100/index/lucene.log
+Mon Feb 29 16:26:51 BRT 2016: TM shutting down

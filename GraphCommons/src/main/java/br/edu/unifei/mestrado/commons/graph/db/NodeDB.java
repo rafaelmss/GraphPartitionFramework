@@ -72,9 +72,9 @@ public class NodeDB implements NodeWrapper {
 		Integer partition = (Integer) innerNode.getProperty(GraphProperties.PARTITION);
 
 		// UTIL: aqui pode aceitar partição -1, indicando que o nó ainda não foi escolhido
-		if (partition == null || partition < AbstractPartition.NO_PARTITION || partition > AbstractPartition.PART_N) {
-			throw new RuntimeException("Partição inválida: " + partition + " para nó: " + getId());
-		}
+		//if (partition == null || partition < AbstractPartition.NO_PARTITION || partition > AbstractPartition.PART_N) {
+		//	throw new RuntimeException("Partição inválida: " + partition + " para nó: " + getId());
+		//}
 
 		assert partition != null : "Propriedade " + GraphProperties.PARTITION + " não encontrada para Node: "
 				+ innerNode.getProperty(GraphProperties.ID);
@@ -139,10 +139,10 @@ public class NodeDB implements NodeWrapper {
 
 	@Override
 	public void setPartition(Integer partition) {
-		if (partition < AbstractPartition.PART_1 || partition > AbstractPartition.PART_N) {
-			throw new RuntimeException("Partição inválida: " + partition);
-		}
-		innerNode.setProperty(GraphProperties.PARTITION, partition);
+		//if (partition < AbstractPartition.PART_1 || partition > AbstractPartition.PART_N) {
+		//	throw new RuntimeException("Parti��o inv�lida(e): " + partition);
+		//}
+                innerNode.setProperty(GraphProperties.PARTITION, partition);
 	}
 
 	@Override

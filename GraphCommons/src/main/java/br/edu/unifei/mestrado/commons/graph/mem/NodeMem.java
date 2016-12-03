@@ -39,7 +39,7 @@ public class NodeMem implements NodeWrapper {
 
 	@Override
 	public void setPartition(Integer partition) {
-		if(partition == -1) { //não pode certar. ele já inicia com -1
+                if(partition == -1) { //não pode certar. ele já inicia com -1
 			throw new RuntimeException("Valor de partição inválido " + partition + " para vertice: " + innerNode.getId());
 		}
 		innerNode.setPartition(partition);

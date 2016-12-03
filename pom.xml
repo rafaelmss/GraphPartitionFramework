@@ -33,6 +33,7 @@
 		<module>Base_FM</module>
 		<module>Base_GreedyKWay</module>
 		<module>Base_KL</module>
+                <module>Base_Louvain</module>
 		<module>Base_MultiNivel</module>
 		<module>GraphCommons</module>
 		<module>GraphView</module>
@@ -44,6 +45,9 @@
 		<module>Neo4j_GreedyKWay</module>
 		<module>Neo4j_KL</module>
 		<module>Neo4j_MultiNivel</module>
+	 <module>Neo4j_Louvain</module>
+	 <module>Base_Spectral</module>
+	 <module>Neo4j_Spectral</module>
 	</modules>
 </project>
 

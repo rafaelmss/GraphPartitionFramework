@@ -16,4 +16,6 @@ public interface EdgeWrapper {
 	public NodeWrapper getEndNode();
 	
 	void setInnerEdge(Object innerObject);
+        
+	public void sumWeight(int weightToAdd);
 }

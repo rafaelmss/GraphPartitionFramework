@@ -14,14 +14,14 @@ public class MainFMNeo4J {
 		String graphFileName = null;
 		double ratio = -1D;
 
-		// executar assim: main ratio graphFileName
-		if (args.length > 1) {
-			ratio = Double.parseDouble(args[0]);
-			graphFileName = args[1];
-		} else {
-			logger.error("Uso: MainFMNeo4J ratio graphFileName");
-			System.exit(2);
-		}
+		// executar assim: main dbFileName
+                if (args.length == 1) {
+                        graphFileName = args[0];
+                } else {
+                        //System.out.println("Uso: MainLouvainNeo4J graphFileName");
+                        //System.exit(2);
+                        graphFileName = "teste_10";
+                }
 
 		logger.warn("Iniciando FM com Neo4J... file: " + graphFileName);
 		long delta = System.currentTimeMillis();

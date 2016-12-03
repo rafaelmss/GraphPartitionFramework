@@ -108,9 +108,9 @@ public abstract class TwoWayMultinivel extends AlgorithmObject implements ViewLi
 	 */
 	private BestPartition uncoarseOneLevel() {
 		logger.warn("Iniciando uncoarse do NIVEL: " + levelInfo.getCurrentLevel());
-		
+                
 		levelInfo.getPreviousGraph().activate();
-		
+                
 		//TODO_OK: Mudar! para projetar, precisa da partição do nível anterior, e não do grafo, talvez. No grafo os nodes já tem suas partições.
 //		TwoWayPartition newPart = 
 		projectPartitionBack(levelInfo.getPreviousGraph(), levelInfo.getCurrentGraph(), levelInfo.getPreviousLevel());
@@ -153,7 +153,7 @@ public abstract class TwoWayMultinivel extends AlgorithmObject implements ViewLi
 		try {
 			transaction.beginTransaction();
 			for (NodeWrapper node : fineGraph.getAllNodesStatic()) {
-
+                            
 				int partitionId = -1;
 				// UTIL: repassa o particionamento para o grafo mais fino
 				if (node.hasInsideOf()) {

@@ -138,7 +138,7 @@ public class GraphMem extends GraphWrapper {
 		Node va = getInnerNode(startNode);
 		Node vb = getInnerNode(endNode);
 		Relationship aresta = new Relationship(id, weight, va, vb);
-
+                
 		if (mapEdges.containsKey(id)) {
 			throw new RuntimeException("Check why edge " + id + " has already exist in the graph.");
 			//logger.warn("Aresta " + aresta + " jah existe no grafo");

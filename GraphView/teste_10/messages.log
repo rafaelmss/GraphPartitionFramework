@@ -1,0 +1,145 @@
+Mon Nov 30 15:12:49 BRST 2015: Creating new db @ gerados/neo4j-grafo_v10_p30_a13/neostore
+Mon Nov 30 15:12:51 BRST 2015: Opened [gerados/neo4j-grafo_v10_p30_a13/nioneo_logical.log.1] clean empty log, version=0
+Mon Nov 30 15:12:51 BRST 2015: Opened [gerados/neo4j-grafo_v10_p30_a13/lucene/lucene.log.1] clean empty log, version=0
+Mon Nov 30 15:12:51 BRST 2015: Opened [gerados/neo4j-grafo_v10_p30_a13/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Mon Nov 30 15:12:51 BRST 2015: Opened [/home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphGenerator/gerados/neo4j-grafo_v10_p30_a13/index/lucene.log.1] clean empty log, version=0
+Mon Nov 30 15:12:51 BRST 2015: TM new log: tm_tx_log.1
+Mon Nov 30 15:12:51 BRST 2015: --- CONFIGURATION START ---
+Mon Nov 30 15:12:51 BRST 2015: Physical mem: 7867MB, Heap size: 1749MB
+Mon Nov 30 15:12:51 BRST 2015: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Mon Nov 30 15:12:51 BRST 2015: Neo4j - Graph Database Kernel 1.4.M06
+Mon Nov 30 15:12:51 BRST 2015: Operating System: Linux; version: 4.2.0-18-generic; arch: amd64; cpus: 4
+Mon Nov 30 15:12:51 BRST 2015: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Mon Nov 30 15:12:51 BRST 2015: VM Vendor: Oracle Corporation
+Mon Nov 30 15:12:51 BRST 2015: VM Version: 25.66-b17
+Mon Nov 30 15:12:51 BRST 2015: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Mon Nov 30 15:12:51 BRST 2015: Class Path: /usr/share/maven2/boot/classworlds.jar
+Mon Nov 30 15:12:51 BRST 2015: Library Path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mon Nov 30 15:12:51 BRST 2015: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Mon Nov 30 15:12:51 BRST 2015: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Mon Nov 30 15:12:51 BRST 2015: VM Arguments: [-Dclassworlds.conf=/usr/share/maven2/bin/m2.conf, -Dmaven.home=/usr/share/maven2]
+Mon Nov 30 15:12:51 BRST 2015: 
+Mon Nov 30 15:12:51 BRST 2015: create=true
+Mon Nov 30 15:12:51 BRST 2015: dir=gerados/neo4j-grafo_v10_p30_a13/lucene-fulltext
+Mon Nov 30 15:12:51 BRST 2015: logical_log=gerados/neo4j-grafo_v10_p30_a13/nioneo_logical.log
+Mon Nov 30 15:12:51 BRST 2015: neo_store=gerados/neo4j-grafo_v10_p30_a13/neostore
+Mon Nov 30 15:12:51 BRST 2015: neostore.nodestore.db.mapped_memory=20M
+Mon Nov 30 15:12:51 BRST 2015: neostore.propertystore.db.arrays.mapped_memory=130M
+Mon Nov 30 15:12:51 BRST 2015: neostore.propertystore.db.index.keys.mapped_memory=1M
+Mon Nov 30 15:12:51 BRST 2015: neostore.propertystore.db.index.mapped_memory=1M
+Mon Nov 30 15:12:51 BRST 2015: neostore.propertystore.db.mapped_memory=90M
+Mon Nov 30 15:12:51 BRST 2015: neostore.propertystore.db.strings.mapped_memory=130M
+Mon Nov 30 15:12:51 BRST 2015: neostore.relationshipstore.db.mapped_memory=100M
+Mon Nov 30 15:12:51 BRST 2015: node_auto_indexing=false
+Mon Nov 30 15:12:51 BRST 2015: rebuild_idgenerators_fast=true
+Mon Nov 30 15:12:51 BRST 2015: relationship_auto_indexing=false
+Mon Nov 30 15:12:51 BRST 2015: store_dir=gerados/neo4j-grafo_v10_p30_a13
+Mon Nov 30 15:12:51 BRST 2015: use_memory_mapped_buffers=true
+Mon Nov 30 15:12:51 BRST 2015: --- CONFIGURATION END ---
+Mon Nov 30 15:12:51 BRST 2015: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Mon Nov 30 15:12:51 BRST 2015: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Mon Nov 30 15:12:51 BRST 2015: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Mon Nov 30 15:12:51 BRST 2015: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Mon Nov 30 15:13:08 BRST 2015: Closed log gerados/neo4j-grafo_v10_p30_a13/nioneo_logical.log
+Mon Nov 30 15:13:09 BRST 2015: NeoStore closed
+Mon Nov 30 15:13:09 BRST 2015: NeoStore closed
+Mon Nov 30 15:13:09 BRST 2015: Closed log gerados/neo4j-grafo_v10_p30_a13/lucene/lucene.log
+Mon Nov 30 15:13:09 BRST 2015: Closed log gerados/neo4j-grafo_v10_p30_a13/lucene-fulltext/lucene.log
+Mon Nov 30 15:13:09 BRST 2015: Closed log /home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphGenerator/gerados/neo4j-grafo_v10_p30_a13/index/lucene.log
+Mon Nov 30 15:13:09 BRST 2015: TM shutting down
+Mon Nov 30 15:32:48 BRST 2015: Opened [teste_10/nioneo_logical.log.1] clean empty log, version=0
+Mon Nov 30 15:32:48 BRST 2015: Opened [teste_10/lucene/lucene.log.1] clean empty log, version=0
+Mon Nov 30 15:32:48 BRST 2015: Opened [teste_10/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Mon Nov 30 15:32:48 BRST 2015: Opened [/home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphView/teste_10/index/lucene.log.1] clean empty log, version=0
+Mon Nov 30 15:32:48 BRST 2015: TM opening log: teste_10/tm_tx_log.1
+Mon Nov 30 15:32:48 BRST 2015: --- CONFIGURATION START ---
+Mon Nov 30 15:32:48 BRST 2015: Physical mem: 7867MB, Heap size: 1749MB
+Mon Nov 30 15:32:48 BRST 2015: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Mon Nov 30 15:32:48 BRST 2015: Neo4j - Graph Database Kernel 1.4.M06
+Mon Nov 30 15:32:48 BRST 2015: Operating System: Linux; version: 4.2.0-18-generic; arch: amd64; cpus: 4
+Mon Nov 30 15:32:48 BRST 2015: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Mon Nov 30 15:32:48 BRST 2015: VM Vendor: Oracle Corporation
+Mon Nov 30 15:32:48 BRST 2015: VM Version: 25.66-b17
+Mon Nov 30 15:32:48 BRST 2015: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Mon Nov 30 15:32:48 BRST 2015: Class Path: /usr/share/maven2/boot/classworlds.jar
+Mon Nov 30 15:32:48 BRST 2015: Library Path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mon Nov 30 15:32:48 BRST 2015: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Mon Nov 30 15:32:48 BRST 2015: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Mon Nov 30 15:32:48 BRST 2015: VM Arguments: [-Dclassworlds.conf=/usr/share/maven2/bin/m2.conf, -Dmaven.home=/usr/share/maven2]
+Mon Nov 30 15:32:48 BRST 2015: 
+Mon Nov 30 15:32:48 BRST 2015: create=true
+Mon Nov 30 15:32:48 BRST 2015: dir=teste_10/lucene-fulltext
+Mon Nov 30 15:32:48 BRST 2015: logical_log=teste_10/nioneo_logical.log
+Mon Nov 30 15:32:48 BRST 2015: neo_store=teste_10/neostore
+Mon Nov 30 15:32:48 BRST 2015: neostore.nodestore.db.mapped_memory=20M
+Mon Nov 30 15:32:48 BRST 2015: neostore.propertystore.db.arrays.mapped_memory=130M
+Mon Nov 30 15:32:48 BRST 2015: neostore.propertystore.db.index.keys.mapped_memory=1M
+Mon Nov 30 15:32:48 BRST 2015: neostore.propertystore.db.index.mapped_memory=1M
+Mon Nov 30 15:32:48 BRST 2015: neostore.propertystore.db.mapped_memory=90M
+Mon Nov 30 15:32:48 BRST 2015: neostore.propertystore.db.strings.mapped_memory=130M
+Mon Nov 30 15:32:48 BRST 2015: neostore.relationshipstore.db.mapped_memory=100M
+Mon Nov 30 15:32:48 BRST 2015: node_auto_indexing=false
+Mon Nov 30 15:32:48 BRST 2015: rebuild_idgenerators_fast=true
+Mon Nov 30 15:32:48 BRST 2015: relationship_auto_indexing=false
+Mon Nov 30 15:32:48 BRST 2015: store_dir=teste_10
+Mon Nov 30 15:32:48 BRST 2015: use_memory_mapped_buffers=true
+Mon Nov 30 15:32:48 BRST 2015: --- CONFIGURATION END ---
+Mon Nov 30 15:32:48 BRST 2015: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Mon Nov 30 15:32:48 BRST 2015: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Mon Nov 30 15:32:48 BRST 2015: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Mon Nov 30 15:32:48 BRST 2015: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Mon Nov 30 15:33:59 BRST 2015: Closed log teste_10/nioneo_logical.log
+Mon Nov 30 15:33:59 BRST 2015: NeoStore closed
+Mon Nov 30 15:33:59 BRST 2015: NeoStore closed
+Mon Nov 30 15:33:59 BRST 2015: Closed log teste_10/lucene/lucene.log
+Mon Nov 30 15:33:59 BRST 2015: Closed log teste_10/lucene-fulltext/lucene.log
+Mon Nov 30 15:33:59 BRST 2015: Closed log /home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphView/teste_10/index/lucene.log
+Mon Nov 30 15:34:00 BRST 2015: TM shutting down
+Wed Jan 27 14:19:32 BRST 2016: Opened [teste_10/nioneo_logical.log.1] clean empty log, version=0
+Wed Jan 27 14:19:32 BRST 2016: Opened [teste_10/lucene/lucene.log.1] clean empty log, version=0
+Wed Jan 27 14:19:32 BRST 2016: Opened [teste_10/lucene-fulltext/lucene.log.1] clean empty log, version=0
+Wed Jan 27 14:19:32 BRST 2016: Opened [/home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphView/teste_10/index/lucene.log.1] clean empty log, version=0
+Wed Jan 27 14:19:32 BRST 2016: TM opening log: teste_10/tm_tx_log.1
+Wed Jan 27 14:19:32 BRST 2016: --- CONFIGURATION START ---
+Wed Jan 27 14:19:32 BRST 2016: Physical mem: 7867MB, Heap size: 1749MB
+Wed Jan 27 14:19:32 BRST 2016: Kernel version: Neo4j - Graph Database Kernel 1.4.M06
+Wed Jan 27 14:19:32 BRST 2016: Neo4j - Graph Database Kernel 1.4.M06
+Wed Jan 27 14:19:32 BRST 2016: Operating System: Linux; version: 4.2.0-25-generic; arch: amd64; cpus: 4
+Wed Jan 27 14:19:32 BRST 2016: VM Name: Java HotSpot(TM) 64-Bit Server VM
+Wed Jan 27 14:19:32 BRST 2016: VM Vendor: Oracle Corporation
+Wed Jan 27 14:19:32 BRST 2016: VM Version: 25.66-b17
+Wed Jan 27 14:19:32 BRST 2016: Boot Class Path: /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+Wed Jan 27 14:19:32 BRST 2016: Class Path: /usr/share/maven2/boot/classworlds.jar
+Wed Jan 27 14:19:32 BRST 2016: Library Path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Wed Jan 27 14:19:32 BRST 2016: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+Wed Jan 27 14:19:32 BRST 2016: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+Wed Jan 27 14:19:32 BRST 2016: VM Arguments: [-Dclassworlds.conf=/usr/share/maven2/bin/m2.conf, -Dmaven.home=/usr/share/maven2]
+Wed Jan 27 14:19:32 BRST 2016: 
+Wed Jan 27 14:19:32 BRST 2016: create=true
+Wed Jan 27 14:19:32 BRST 2016: dir=teste_10/lucene-fulltext
+Wed Jan 27 14:19:32 BRST 2016: logical_log=teste_10/nioneo_logical.log
+Wed Jan 27 14:19:32 BRST 2016: neo_store=teste_10/neostore
+Wed Jan 27 14:19:32 BRST 2016: neostore.nodestore.db.mapped_memory=20M
+Wed Jan 27 14:19:32 BRST 2016: neostore.propertystore.db.arrays.mapped_memory=130M
+Wed Jan 27 14:19:32 BRST 2016: neostore.propertystore.db.index.keys.mapped_memory=1M
+Wed Jan 27 14:19:32 BRST 2016: neostore.propertystore.db.index.mapped_memory=1M
+Wed Jan 27 14:19:32 BRST 2016: neostore.propertystore.db.mapped_memory=90M
+Wed Jan 27 14:19:32 BRST 2016: neostore.propertystore.db.strings.mapped_memory=130M
+Wed Jan 27 14:19:32 BRST 2016: neostore.relationshipstore.db.mapped_memory=100M
+Wed Jan 27 14:19:32 BRST 2016: node_auto_indexing=false
+Wed Jan 27 14:19:32 BRST 2016: rebuild_idgenerators_fast=true
+Wed Jan 27 14:19:32 BRST 2016: relationship_auto_indexing=false
+Wed Jan 27 14:19:32 BRST 2016: store_dir=teste_10
+Wed Jan 27 14:19:32 BRST 2016: use_memory_mapped_buffers=true
+Wed Jan 27 14:19:32 BRST 2016: --- CONFIGURATION END ---
+Wed Jan 27 14:19:32 BRST 2016: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+Wed Jan 27 14:19:32 BRST 2016: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+Wed Jan 27 14:19:32 BRST 2016: Extension org.neo4j.kernel.KernelExtension[dummy] loaded ok
+Wed Jan 27 14:19:32 BRST 2016: Extension org.neo4j.kernel.KernelExtension[other dummy] loaded ok
+Wed Jan 27 14:19:45 BRST 2016: Closed log teste_10/nioneo_logical.log
+Wed Jan 27 14:19:45 BRST 2016: NeoStore closed
+Wed Jan 27 14:19:45 BRST 2016: NeoStore closed
+Wed Jan 27 14:19:45 BRST 2016: Closed log teste_10/lucene/lucene.log
+Wed Jan 27 14:19:45 BRST 2016: Closed log teste_10/lucene-fulltext/lucene.log
+Wed Jan 27 14:19:45 BRST 2016: Closed log /home/rafael/Área de Trabalho/GraphPartitionFramework-master/GraphView/teste_10/index/lucene.log
+Wed Jan 27 14:19:45 BRST 2016: TM shutting down

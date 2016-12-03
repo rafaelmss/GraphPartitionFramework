@@ -82,6 +82,11 @@ public class EdgeMem implements EdgeWrapper {
 	public String toString() {
 		return innerEdge.toString();
 	}
+        
+        @Override
+	public void sumWeight(int weightToAdd) {
+            this.innerEdge.sumWeight(weightToAdd);
+	}
 
 	
 }

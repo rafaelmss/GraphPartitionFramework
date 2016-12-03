@@ -29,6 +29,7 @@ import br.edu.unifei.mestrado.commons.partition.index.CutIndex;
 import br.edu.unifei.mestrado.commons.partition.index.CutIndexDB;
 import br.edu.unifei.mestrado.commons.partition.index.PartitionIndex;
 import br.edu.unifei.mestrado.commons.partition.index.PartitionIndexDB;
+import org.neo4j.graphalgo.impl.centrality.EigenvectorCentralityArnoldi;
 
 public class GraphDB extends GraphWrapper {
 
@@ -97,9 +98,11 @@ public class GraphDB extends GraphWrapper {
 		// UTIL: salvar o sizeNodes no referenceNode para saber ele na proxima execução.
 			Node referenceNode = graphDb.getReferenceNode();
 			referenceNode.setProperty(GraphProperties.SIZE_NODES, sizeNodes);
-		}
-		tx.success();
+		}                
+                tx.success();
 		sizeNodesChanged = false;
+                
+                
 	}
 
 	@Override
@@ -161,6 +164,7 @@ public class GraphDB extends GraphWrapper {
 					logger.warn("Passivating database " + graphFileName + " ...");
 				}
 			}
+                        
 			graphDb.shutdown();
 			graphDb = null;
 
@@ -193,7 +197,7 @@ public class GraphDB extends GraphWrapper {
 		return rel;
 	}
 
-	private void initDB() {
+     private void initDB() {
 		String dbFullPath = getDBFullPath();
 		if (!reuseDB) {
 			deleteFileOrDirectory(new File(dbFullPath));

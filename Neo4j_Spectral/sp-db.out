@@ -1,0 +1,27 @@
+
+ Partition at 20160322-15:54:55
+ Graph file: neo4j-grafo_v10
+ Time spent: 5529 ms
+ Edge cut: 5
+ k: 2
+ Amount of nodes of each k:  k_1: 7 k_2: 6
+ Node weight of each k:  k_1: 7 k_2: 6
+ End of partition at 20160322-15:54:55
+
+ Partition at 20160322-15:56:42
+ Graph file: neo4j-grafo_v100
+ Time spent: 7264 ms
+ Edge cut: 12
+ k: 2
+ Amount of nodes of each k:  k_1: 52 k_2: 51
+ Node weight of each k:  k_1: 52 k_2: 51
+ End of partition at 20160322-15:56:42
+
+ Partition at 20160322-16:00:31
+ Graph file: neo4j-grafo_v1000
+ Time spent: 121812 ms
+ Edge cut: 93
+ k: 2
+ Amount of nodes of each k:  k_1: 502 k_2: 499
+ Node weight of each k:  k_1: 502 k_2: 499
+ End of partition at 20160322-16:00:31

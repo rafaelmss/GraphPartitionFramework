@@ -95,5 +95,11 @@ public class EdgeDB implements EdgeWrapper {
 	public String toString() {
 		return innerEdge.toString();
 	}
+        
+        @Override
+	public void sumWeight(int weightToAdd) {
+                int newWeight = this.getWeight() + weightToAdd;            
+		this.innerEdge.setProperty(GraphProperties.WEIGHT, newWeight);
+	}
 
 }

@@ -58,6 +58,7 @@ public abstract class GraphWrapper implements TransactionInterface, PartitionKee
 	 * Set partition property to NO_PARTITION for all nodes.
 	 */
 	public abstract void resetPartitionAllNodes();
+        
 	
 
 //	public void createEdge(long idEdge, int edgeWeight, long id1, int weight1, long id2, int weight2) {
@@ -65,7 +66,7 @@ public abstract class GraphWrapper implements TransactionInterface, PartitionKee
 //		NodeWrapper secondNode = getOrCreateNode(id2, weight2);
 //		createEdge(idEdge, edgeWeight, firstNode.getId(), secondNode.getId());
 //	}
-
+        
 	public int getSizeNodes() {
 		return sizeNodes;
 	}

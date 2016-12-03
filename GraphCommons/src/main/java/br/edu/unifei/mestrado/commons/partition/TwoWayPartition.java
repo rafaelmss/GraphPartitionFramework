@@ -74,9 +74,24 @@ public class TwoWayPartition extends AbstractPartition {
 		}
 	}
 	
-	/**
-	 * Divide os nodes, tal que cada parte contém aproximadamente metade dos pesos dos nodes do grafo.
-	 */
+	private class SequencialChooser implements PartitionChooser {
+
+		public SequencialChooser() {
+			logger.info("New sequencial partition");
+		}
+		
+		// UTIL: variavel para sequenciar o particionamento
+		private int partition = 0;
+		
+		@Override
+		public int getNextPartition(NodeWrapper node) {
+			
+                    partition++;
+                    return partition;
+			
+		}
+	}
+
 	private class BalancedWeightChooser implements PartitionChooser {
 
 		// UTIL: variaveis para balancear o particionamento baseado nos pesos dos nós
@@ -105,7 +120,23 @@ public class TwoWayPartition extends AbstractPartition {
 			return partition;
 		}
 	}
-	/**
+        
+	private class SameChooser implements PartitionChooser {
+
+		public SameChooser() {
+			logger.info("New same partition");
+		}
+		
+		@Override
+		public int getNextPartition(NodeWrapper node) {
+			
+                    return node.getPartition();
+			
+		}
+	}
+
+        
+        /**
 	 * Creates a fixed partition
 	 * @param graph
 	 * @return the size of nodes in partition A.
@@ -125,6 +156,22 @@ public class TwoWayPartition extends AbstractPartition {
 		return initialPartition(graph, new ArbitraryChooser((long) (it * Math.PI)));
 		// TODO: verificar a melhor semente pra colocar aqui.
 		//return initialPartition(graph, new ArbitraryChooser(new Random(it)));
+	}
+        
+	public int initialSequencialPartition(GraphWrapper graph) {
+		//TODO: Verificar: sempre está pegando os mesmos nós
+		return initialPartition(graph, new SequencialChooser());
+		// TODO: verificar a melhor semente pra colocar aqui.
+		//return initialPartition(graph, new ArbitraryChooser(new Random(it)));
+                
+	}
+        
+	public int initialSamePartition(GraphWrapper graph) {
+		//TODO: Verificar: sempre está pegando os mesmos nós
+		return initialPartition(graph, new SameChooser());
+		// TODO: verificar a melhor semente pra colocar aqui.
+		//return initialPartition(graph, new ArbitraryChooser(new Random(it)));
+                
 	}
 
 	/**
@@ -227,35 +274,4 @@ public class TwoWayPartition extends AbstractPartition {
 		return super.queryNodesFromSet(AbstractPartition.PART_2);
 	}
 	
-//	/**
-//	 * Retorna o iterable de nodes correspondente aos vértices as duas partições.
-//	 */
-//	public Iterable<NodeWrapper> getAllNodes() {
-//		final Iterator<NodeWrapper> part1 = super.queryNodes(GraphProperties.PARTITION, AbstractPartition.PART_1).iterator();
-//		final Iterator<NodeWrapper> part2 = super.queryNodes(GraphProperties.PARTITION, AbstractPartition.PART_2).iterator();
-//		return new Iterable<NodeWrapper>() {
-//			@Override
-//			public Iterator<NodeWrapper> iterator() {
-//				return new Iterator<NodeWrapper>() {
-//					@Override
-//					public NodeWrapper next() {
-//						if (part1.hasNext()) {
-//							return part1.next();
-//						}
-//						return part2.next();
-//					}
-//					@Override
-//					public boolean hasNext() {
-//						if (part1.hasNext()) {
-//							return true;
-//						}
-//						return part2.hasNext();
-//					}
-//					@Override
-//					public void remove() {
-//					}
-//				};
-//			}
-//		};
-//	}
 }

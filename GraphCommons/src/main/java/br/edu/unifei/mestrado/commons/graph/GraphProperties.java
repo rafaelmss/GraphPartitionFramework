@@ -16,5 +16,7 @@ public class GraphProperties {
 	
 	public static final String SIZE_NODES = "SIZE_NODES";
 	public static final String GAIN = "GAIN";
+        
+	public static final String SIZE_EDGES = "SIZE_EDGES";
 	
 }

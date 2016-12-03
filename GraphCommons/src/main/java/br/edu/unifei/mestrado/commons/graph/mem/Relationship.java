@@ -8,6 +8,7 @@ public class Relationship {
 	private int weight;
 	private Node startNode;
 	private Node endNode;
+	private boolean locked = false;
 
 	public Relationship(long newId, int newWeight, Node newVa, Node newVb) {
 		id = newId;
@@ -31,8 +32,8 @@ public class Relationship {
 	public int getWeight() {
 		return weight;
 	}
-
-	public Node getStartNode() {
+        
+        public Node getStartNode() {
 		return startNode;
 	}
 
@@ -68,6 +69,22 @@ public class Relationship {
 			return ((Relationship)obj).getId() == id;
 		}
 		return false;
+	}
+
+        public void sumWeight(int weightToAdd) {
+            this.weight = this.weight + weightToAdd;
+        }
+
+	public boolean isLocked() {
+		return locked;
+	}
+
+	public void lock() {
+		this.locked = true;
+	}
+	
+	public void unLock() {
+		this.locked = false;
 	}
 	
 }
